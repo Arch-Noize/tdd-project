@@ -8,7 +8,9 @@ describe Solver do
     end
 
     describe 'Reverse words' do
-
+        it 'reverses a word' do
+            expect(Solver.reverse('hello')).to eq('olleh')
+        end
     end
 
     describe 'Fizzbuzz?' do
